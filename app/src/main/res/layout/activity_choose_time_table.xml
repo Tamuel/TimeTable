@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.softwork.ydk.middletermproject_time_table.GUI.ChooseTimeTableActivity">
+
+    <RelativeLayout
+        android:id="@+id/time_table_title_bar"
+        android:background="@drawable/underbar_layout_background"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="@string/app_name"
+            android:textSize="@dimen/title_bar_text_size"
+            android:textColor="@color/cyonColor"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/title_bar_height"
+            android:id="@+id/lecture_text_view"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/make_new_time_table_button"
+            android:text="@string/add"
+            android:textSize="@dimen/content_text_size"
+            android:textColor="@color/cyonColor"
+            android:gravity="center"
+            android:background="@drawable/cyon_simple_button"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/title_bar_button_height"
+            android:onClick="onButtonClick"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/time_tables_list_view"
+        android:layout_below="@id/time_table_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </ListView>
+
+    <ImageView
+        android:background="@drawable/drop_shadow_under_layout"
+        android:layout_below="@id/time_table_title_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/content_height" />
+
+</RelativeLayout>

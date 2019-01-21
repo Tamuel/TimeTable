@@ -1,0 +1,65 @@
+<resources>
+    <string name="authority">TiMe.softwork.com</string>
+    <string name="app_name">TiMe</string>
+
+    <string-array name="week_day">
+        <item>월</item>
+        <item>화</item>
+        <item>수</item>
+        <item>목</item>
+        <item>금</item>
+    </string-array>
+    <string-array name="time_table_hours">
+        <item>09:00</item>
+        <item>09:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+    </string-array>
+
+    <string name="make_new_time_table">새로운 시간표를 만들어야합니다!</string>
+    <string name="make_new_time_table_hint">시간표 이름을 입력하세요</string>
+    <string name="make_time_table">시간표 생성</string>
+
+    <string name="lecture">강의</string>
+    <string name="make_new_lecture">강의 추가</string>
+    <string name="overlap_lecture_Exist">겹치는 강의가 있습니다</string>
+    <string name="edit_lecture">강의 수정</string>
+    <string name="lecture_note">알림장</string>
+    <string name="delete_lecture">강의 삭제</string>
+    <string name="delete_whole_lecture">강의 완전 삭제</string>
+    <string name="delete_whole_lecture_answer">강의를 완전 삭제하시겠습니까?</string>
+    <string name="exist_lecture">기존 강의</string>
+    <string name="lecture_name">강의 이름</string>
+    <string name="lecture_major">개설 학과</string>
+    <string name="lecture_room">강의실</string>
+    <string name="professor">교수님</string>
+    <string name="lecture_content">강의 내용</string>
+    <string name="lecture_time">강의 시간</string>
+    <string name="date">요일</string>
+
+    <string name="time_table_name">시간표 이름</string>
+    <string name="change_time_table">다른 시간표</string>
+
+    <string name="add">추가</string>
+    <string name="cancel">취소</string>
+    <string name="content">내용</string>
+    <string name="delete">삭제</string>
+
+    <string name="start_time">시작 시간 </string>
+    <string name="end_time">종료 시간</string>
+</resources>
