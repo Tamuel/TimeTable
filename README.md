@@ -8,3 +8,7 @@ Time table with note java program.\
 
 ## Screenshot
 ![screenshot](https://github.com/Tamuel/TimeTable/blob/master/TimeTable%20Screenshot.png)
+
+## Teams
+* 유동규 (eastern7star@gmail.com)
+* 
